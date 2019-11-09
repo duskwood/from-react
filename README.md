@@ -1,9 +1,11 @@
 # from React
 
-![react_release_version](https://badgen.net/npm/v/react)
-
-:point_up: is a stable version of the React
+latest release of react: ![](https://flat.badgen.net/github/release/facebook/react/react)
 
 ```sh
-npm start # or npm build
+# in your local development environment
+npm run dev
+
+# creating a production build
+npm run build
 ```
