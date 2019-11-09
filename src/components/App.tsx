@@ -1,12 +1,17 @@
-import React from "react";
+import * as React from "react";
 import { Button } from "./Button";
 
-const App = () => {
+const App: React.FunctionComponent<{}> = () => {
   const [count, setCount] = React.useState(0);
+
+  const update = React.useCallback(() => {
+    setCount(count => count + 1);
+  }, []);
+
   return (
     <>
       <h1>Hello, React</h1>
-      <Button onClick={() => setCount(count + 1)} label={count.toString()} />
+      <Button onClick={update} label={count.toString()} />
     </>
   );
 };
