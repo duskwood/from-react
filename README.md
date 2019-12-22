@@ -1,6 +1,7 @@
 # from React
 
-latest release of react: ![](https://flat.badgen.net/github/release/facebook/react/react)
+Latest release of React<br/>
+![](https://flat.badgen.net/github/release/facebook/react/react)
 
 ```sh
 # in your local development environment
