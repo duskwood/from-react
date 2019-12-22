@@ -5,7 +5,7 @@ type Props = {
   onClick: (e: React.SyntheticEvent) => void;
 };
 
-export const Button: React.FunctionComponent<Props> = ({
+export const Button: React.ComponentType<Props> = ({
   label,
   onClick
 }: Props) => {

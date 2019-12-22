@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Button } from "./Button";
 
-const App: React.FunctionComponent<{}> = () => {
+const App: React.ComponentType<{}> = () => {
   const [count, setCount] = React.useState(0);
 
   const update = React.useCallback(() => {
