@@ -2,14 +2,11 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [
-    {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
-      "depTypeList": ["devDependencies"],
-      "automerge": true
-    }
-  ]
+  "automerge": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
