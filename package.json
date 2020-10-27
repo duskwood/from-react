@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "16.9.53",
-    "@types/react-dom": "16.9.8",
+    "@types/react-dom": "16.9.9",
     "@typescript-eslint/eslint-plugin": "4.6.0",
     "@typescript-eslint/parser": "4.6.0",
     "core-js": "3.6.5",
