@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Button } from "./Button";
 
-const App: React.ComponentType<{}> = () => {
+const App: React.FC = () => {
   const [count, setCount] = React.useState(0);
 
   const update = React.useCallback(() => {
-    setCount(count => count + 1);
+    setCount((count) => count + 1);
   }, []);
 
   return (

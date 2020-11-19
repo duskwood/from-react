@@ -5,10 +5,7 @@ type Props = {
   onClick: (e: React.SyntheticEvent) => void;
 };
 
-export const Button: React.ComponentType<Props> = ({
-  label,
-  onClick
-}: Props) => {
+export const Button = ({ label, onClick }: Props) => {
   return (
     <button type="button" onClick={onClick}>
       {label}
