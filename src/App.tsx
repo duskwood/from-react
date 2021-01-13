@@ -1,10 +1,9 @@
 import * as React from "react";
 
-const Button = ({
-  onClick,
-}: {
+type ButtonProps = {
   onClick: (e: React.SyntheticEvent<EventTarget>) => void;
-}) => {
+};
+const Button = ({ onClick }: ButtonProps) => {
   return (
     <button type="button" onClick={onClick}>
       Hello React
@@ -13,9 +12,9 @@ const Button = ({
 };
 
 export const App = () => {
-  const onClick = React.useCallback(() => {
+  const onClick = () => {
     console.log("clicked");
-  }, []);
+  };
 
   return (
     <>
