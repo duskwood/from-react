@@ -18,7 +18,7 @@
     "@typescript-eslint/eslint-plugin": "4.13.0",
     "@typescript-eslint/parser": "4.13.0",
     "chokidar-cli": "2.1.0",
-    "core-js": "3.8.2",
+    "core-js": "3.14.0",
     "esbuild": "0.8.31",
     "eslint": "7.17.0",
     "eslint-config-prettier": "7.1.0",
